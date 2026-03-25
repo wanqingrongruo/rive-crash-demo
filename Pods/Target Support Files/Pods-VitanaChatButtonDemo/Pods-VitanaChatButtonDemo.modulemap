@@ -1,0 +1,6 @@
+module Pods_VitanaChatButtonDemo {
+  umbrella header "Pods-VitanaChatButtonDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,25 @@
+name: VitanaChatButtonDemo
+options:
+  minimumXcodeGenVersion: 2.38.0
+  postGenCommand: LANG=en_US.UTF-8 pod install
+configs:
+  Debug: debug
+  Release: release
+targets:
+  VitanaChatButtonDemo:
+    type: application
+    platform: iOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: Sources
+    resources:
+      - path: Resources
+    info:
+      path: Sources/App/Info.plist
+      properties:
+        CFBundleDisplayName: VitanaDemo
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait

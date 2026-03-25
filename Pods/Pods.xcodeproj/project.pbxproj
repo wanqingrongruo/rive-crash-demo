@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		17B6F3248FEB22D2FA3DD917F9D80AFE /* RiveRuntime */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 797EA9825C3D61B2829475236B80ED6F /* Build configuration list for PBXAggregateTarget "RiveRuntime" */;
+			buildPhases = (
+				83E5D95536FFFD0A4BFDBA45A873CC8D /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				920F905D12284E8290175376610DED8F /* PBXTargetDependency */,
+			);
+			name = RiveRuntime;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		48279504FD3278C0CD026D32C25CF43E /* Pods-VitanaChatButtonDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA77AD73026302832816AF9E045EAF5 /* Pods-VitanaChatButtonDemo-dummy.m */; };
+		9E0D61ECACF9BAC1C4C1E1E0C2D11604 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 94DF53A9BEFB74B9AA077902D802246E /* PrivacyInfo.xcprivacy */; };
+		B790C7F00AC1EC7EDC6077EA710A5508 /* Pods-VitanaChatButtonDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE59B0291DDCA5D44F80B54AD1E6EB7 /* Pods-VitanaChatButtonDemo-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9803E8D4AB0979D28F1F971D5704D88B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31FFC5211D9C006E9CA4405BB147BC3D;
+			remoteInfo = "RiveRuntime-runtime_ios_privacy";
+		};
+		9E5AEF94332DD9B7E07E100AE3157ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17B6F3248FEB22D2FA3DD917F9D80AFE;
+			remoteInfo = RiveRuntime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B58C0340783B9F773EDD9C4E3CFCD2A /* Pods-VitanaChatButtonDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VitanaChatButtonDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		17BF2CC926F1918070D8ED136DF83E36 /* RiveRuntime-runtime_ios_privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "RiveRuntime-runtime_ios_privacy"; path = runtime_ios_privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE59B0291DDCA5D44F80B54AD1E6EB7 /* Pods-VitanaChatButtonDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VitanaChatButtonDemo-umbrella.h"; sourceTree = "<group>"; };
+		28D50E6208E826272446A6DBE798D6C7 /* Pods-VitanaChatButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VitanaChatButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		328CB0F032B2AE9FB7A9FADAB065D2E6 /* RiveRuntime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RiveRuntime.debug.xcconfig; sourceTree = "<group>"; };
+		37AF742187B4EAD34EF0AE18D3FFD1A6 /* Pods-VitanaChatButtonDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VitanaChatButtonDemo-frameworks.sh"; sourceTree = "<group>"; };
+		39F2AD00CF1BDA78379C12E3F0DA556C /* Pods-VitanaChatButtonDemo */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-VitanaChatButtonDemo"; path = "libPods-VitanaChatButtonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B983459B427AD73670F28C83D57908 /* Pods-VitanaChatButtonDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VitanaChatButtonDemo-resources.sh"; sourceTree = "<group>"; };
+		6523778554840D3E851EA638E7FD4D66 /* RiveRuntime-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "RiveRuntime-xcframeworks.sh"; sourceTree = "<group>"; };
+		66FD50CF5E12FA47FBAB12F0B0CD588F /* RiveRuntime.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = RiveRuntime.xcframework; sourceTree = "<group>"; };
+		670315020FB9C4540C4A434D115E5CDA /* Pods-VitanaChatButtonDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VitanaChatButtonDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8824D9E3FD85A29C9CBA65B44DF2E033 /* ResourceBundle-runtime_ios_privacy-RiveRuntime-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-runtime_ios_privacy-RiveRuntime-Info.plist"; sourceTree = "<group>"; };
+		94DF53A9BEFB74B9AA077902D802246E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "RiveRuntime.xcframework/ios-arm64/RiveRuntime.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACA77AD73026302832816AF9E045EAF5 /* Pods-VitanaChatButtonDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VitanaChatButtonDemo-dummy.m"; sourceTree = "<group>"; };
+		D603D8C5E9DCC9D6DA3217B412823772 /* Pods-VitanaChatButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VitanaChatButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F222459D759D2568286402588C52EB37 /* RiveRuntime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RiveRuntime.release.xcconfig; sourceTree = "<group>"; };
+		FC3ADBD159C1134DF6A6C4E7F6F49AC4 /* Pods-VitanaChatButtonDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VitanaChatButtonDemo.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		385BCDD807DFBCDBE3BB2516DC121D8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5352A2793E7F0AA9652B40F8E8AE865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C52A8E044BEEF7893797B24A7AE409F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66FD50CF5E12FA47FBAB12F0B0CD588F /* RiveRuntime.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CA79CC4A0A111137AF5B9301E903AB4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8824D9E3FD85A29C9CBA65B44DF2E033 /* ResourceBundle-runtime_ios_privacy-RiveRuntime-Info.plist */,
+				6523778554840D3E851EA638E7FD4D66 /* RiveRuntime-xcframeworks.sh */,
+				328CB0F032B2AE9FB7A9FADAB065D2E6 /* RiveRuntime.debug.xcconfig */,
+				F222459D759D2568286402588C52EB37 /* RiveRuntime.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RiveRuntime";
+			sourceTree = "<group>";
+		};
+		57250B77060F5DB17ECB286E007948EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94DF53A9BEFB74B9AA077902D802246E /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8860C2CE8AEEA7334AD662BB2CB3FCB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39F2AD00CF1BDA78379C12E3F0DA556C /* Pods-VitanaChatButtonDemo */,
+				17BF2CC926F1918070D8ED136DF83E36 /* RiveRuntime-runtime_ios_privacy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96C38471A74CA2F7792057D3D0BDDD64 /* RiveRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				4C52A8E044BEEF7893797B24A7AE409F /* Frameworks */,
+				57250B77060F5DB17ECB286E007948EE /* Resources */,
+				4CA79CC4A0A111137AF5B9301E903AB4 /* Support Files */,
+			);
+			name = RiveRuntime;
+			path = RiveRuntime;
+			sourceTree = "<group>";
+		};
+		96F40185192DE8C51DC935B23B5BDCDF /* Pods-VitanaChatButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FC3ADBD159C1134DF6A6C4E7F6F49AC4 /* Pods-VitanaChatButtonDemo.modulemap */,
+				670315020FB9C4540C4A434D115E5CDA /* Pods-VitanaChatButtonDemo-acknowledgements.markdown */,
+				0B58C0340783B9F773EDD9C4E3CFCD2A /* Pods-VitanaChatButtonDemo-acknowledgements.plist */,
+				ACA77AD73026302832816AF9E045EAF5 /* Pods-VitanaChatButtonDemo-dummy.m */,
+				37AF742187B4EAD34EF0AE18D3FFD1A6 /* Pods-VitanaChatButtonDemo-frameworks.sh */,
+				57B983459B427AD73670F28C83D57908 /* Pods-VitanaChatButtonDemo-resources.sh */,
+				1DE59B0291DDCA5D44F80B54AD1E6EB7 /* Pods-VitanaChatButtonDemo-umbrella.h */,
+				28D50E6208E826272446A6DBE798D6C7 /* Pods-VitanaChatButtonDemo.debug.xcconfig */,
+				D603D8C5E9DCC9D6DA3217B412823772 /* Pods-VitanaChatButtonDemo.release.xcconfig */,
+			);
+			name = "Pods-VitanaChatButtonDemo";
+			path = "Target Support Files/Pods-VitanaChatButtonDemo";
+			sourceTree = "<group>";
+		};
+		CC5B4B4E13C7423365818B88C6561F65 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96F40185192DE8C51DC935B23B5BDCDF /* Pods-VitanaChatButtonDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				DCC2720C25767E5B4E115CBEDA196718 /* Pods */,
+				8860C2CE8AEEA7334AD662BB2CB3FCB0 /* Products */,
+				CC5B4B4E13C7423365818B88C6561F65 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCC2720C25767E5B4E115CBEDA196718 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96C38471A74CA2F7792057D3D0BDDD64 /* RiveRuntime */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4665076D8FDD9A14E777F7A9D6B38F3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B790C7F00AC1EC7EDC6077EA710A5508 /* Pods-VitanaChatButtonDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		31FFC5211D9C006E9CA4405BB147BC3D /* RiveRuntime-runtime_ios_privacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5554A48B119395533153993D0DE549E /* Build configuration list for PBXNativeTarget "RiveRuntime-runtime_ios_privacy" */;
+			buildPhases = (
+				466BAAD4C9809C136F097180A4433EC6 /* Sources */,
+				385BCDD807DFBCDBE3BB2516DC121D8E /* Frameworks */,
+				ED7271477437A32D7A610C77D6DBACCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RiveRuntime-runtime_ios_privacy";
+			productName = runtime_ios_privacy;
+			productReference = 17BF2CC926F1918070D8ED136DF83E36 /* RiveRuntime-runtime_ios_privacy */;
+			productType = "com.apple.product-type.bundle";
+		};
+		EF0FAB1D4515CD33EC95885C3DCD521E /* Pods-VitanaChatButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACD3DE190C70DB96570498B18133437 /* Build configuration list for PBXNativeTarget "Pods-VitanaChatButtonDemo" */;
+			buildPhases = (
+				4665076D8FDD9A14E777F7A9D6B38F3E /* Headers */,
+				7BB778EBEAD3B3A54076B5B0A048B4BA /* Sources */,
+				D5352A2793E7F0AA9652B40F8E8AE865 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C5DA9C717C53DAAEE6D084C6BE4368A /* PBXTargetDependency */,
+			);
+			name = "Pods-VitanaChatButtonDemo";
+			productName = "Pods-VitanaChatButtonDemo";
+			productReference = 39F2AD00CF1BDA78379C12E3F0DA556C /* Pods-VitanaChatButtonDemo */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8860C2CE8AEEA7334AD662BB2CB3FCB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF0FAB1D4515CD33EC95885C3DCD521E /* Pods-VitanaChatButtonDemo */,
+				17B6F3248FEB22D2FA3DD917F9D80AFE /* RiveRuntime */,
+				31FFC5211D9C006E9CA4405BB147BC3D /* RiveRuntime-runtime_ios_privacy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED7271477437A32D7A610C77D6DBACCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0D61ECACF9BAC1C4C1E1E0C2D11604 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83E5D95536FFFD0A4BFDBA45A873CC8D /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/RiveRuntime/RiveRuntime-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/RiveRuntime/RiveRuntime-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/RiveRuntime/RiveRuntime-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		466BAAD4C9809C136F097180A4433EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB778EBEAD3B3A54076B5B0A048B4BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48279504FD3278C0CD026D32C25CF43E /* Pods-VitanaChatButtonDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C5DA9C717C53DAAEE6D084C6BE4368A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RiveRuntime;
+			target = 17B6F3248FEB22D2FA3DD917F9D80AFE /* RiveRuntime */;
+			targetProxy = 9E5AEF94332DD9B7E07E100AE3157ED8 /* PBXContainerItemProxy */;
+		};
+		920F905D12284E8290175376610DED8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RiveRuntime-runtime_ios_privacy";
+			target = 31FFC5211D9C006E9CA4405BB147BC3D /* RiveRuntime-runtime_ios_privacy */;
+			targetProxy = 9803E8D4AB0979D28F1F971D5704D88B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B74117D435C6640F3A4BB9D3E5F4B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F222459D759D2568286402588C52EB37 /* RiveRuntime.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RiveRuntime";
+				IBSC_MODULE = RiveRuntime;
+				INFOPLIST_FILE = "Target Support Files/RiveRuntime/ResourceBundle-runtime_ios_privacy-RiveRuntime-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = runtime_ios_privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		38AC77D4CE1704808C482A671FEA3FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 328CB0F032B2AE9FB7A9FADAB065D2E6 /* RiveRuntime.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RiveRuntime";
+				IBSC_MODULE = RiveRuntime;
+				INFOPLIST_FILE = "Target Support Files/RiveRuntime/ResourceBundle-runtime_ios_privacy-RiveRuntime-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = runtime_ios_privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		662C966B0F80E2BB3B44B603D2FB7742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28D50E6208E826272446A6DBE798D6C7 /* Pods-VitanaChatButtonDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VitanaChatButtonDemo/Pods-VitanaChatButtonDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E50A798B0CEA0CEABA540A10658D6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D603D8C5E9DCC9D6DA3217B412823772 /* Pods-VitanaChatButtonDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VitanaChatButtonDemo/Pods-VitanaChatButtonDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AF18FAABD9CA88C8CACB0D47107DF2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F222459D759D2568286402588C52EB37 /* RiveRuntime.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED01976E5F46D01AF2D8917D4303EDF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 328CB0F032B2AE9FB7A9FADAB065D2E6 /* RiveRuntime.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797EA9825C3D61B2829475236B80ED6F /* Build configuration list for PBXAggregateTarget "RiveRuntime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED01976E5F46D01AF2D8917D4303EDF2 /* Debug */,
+				AF18FAABD9CA88C8CACB0D47107DF2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5554A48B119395533153993D0DE549E /* Build configuration list for PBXNativeTarget "RiveRuntime-runtime_ios_privacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38AC77D4CE1704808C482A671FEA3FA5 /* Debug */,
+				2B74117D435C6640F3A4BB9D3E5F4B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AACD3DE190C70DB96570498B18133437 /* Build configuration list for PBXNativeTarget "Pods-VitanaChatButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662C966B0F80E2BB3B44B603D2FB7742 /* Debug */,
+				7E50A798B0CEA0CEABA540A10658D6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

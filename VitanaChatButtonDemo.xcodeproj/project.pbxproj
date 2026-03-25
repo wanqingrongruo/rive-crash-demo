@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		169E73010D56C4ECE3ACA258 /* libPods-VitanaChatButtonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A303B4BCB2116BD835AC8187 /* libPods-VitanaChatButtonDemo.a */; };
+		378229A3677464E22FB495FC /* VitanaChatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491C4B40C05E9E1665406222 /* VitanaChatButton.swift */; };
+		44BC3D8583DDD7DC739A754F /* output-vitana-icon.riv in Resources */ = {isa = PBXBuildFile; fileRef = 88CA483E4ABA77E337C81F93 /* output-vitana-icon.riv */; };
+		47A2F48DEFFBBE5640E52615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8A4386E92DD72639D60440 /* AppDelegate.swift */; };
+		6EB1C6FEEC0225F431CD216A /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCE7ACF56EA38592AFA94BD /* DemoViewController.swift */; };
+		A1DC63C8F76A81FAF2DF6593 /* output-vitana-bt-bg.riv in Resources */ = {isa = PBXBuildFile; fileRef = 1C269A54F5625C42D0011538 /* output-vitana-bt-bg.riv */; };
+		C90191FCC7092D892F6B5034 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14322800184ABB44C2049D25 /* SceneDelegate.swift */; };
+		D14A00C573E6565B54F9A7A2 /* ai_generating.riv in Resources */ = {isa = PBXBuildFile; fileRef = 700B17A13BF4873928438805 /* ai_generating.riv */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14322800184ABB44C2049D25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1C269A54F5625C42D0011538 /* output-vitana-bt-bg.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = "output-vitana-bt-bg.riv"; sourceTree = "<group>"; };
+		28D713B4D82060177AFBA10D /* Pods-VitanaChatButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VitanaChatButtonDemo.release.xcconfig"; path = "Target Support Files/Pods-VitanaChatButtonDemo/Pods-VitanaChatButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2C8A4386E92DD72639D60440 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		491C4B40C05E9E1665406222 /* VitanaChatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitanaChatButton.swift; sourceTree = "<group>"; };
+		700B17A13BF4873928438805 /* ai_generating.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = ai_generating.riv; sourceTree = "<group>"; };
+		88CA483E4ABA77E337C81F93 /* output-vitana-icon.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = "output-vitana-icon.riv"; sourceTree = "<group>"; };
+		8A723829D739AD65BB183CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A303B4BCB2116BD835AC8187 /* libPods-VitanaChatButtonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VitanaChatButtonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B569C252F48769701FADDCF9 /* VitanaChatButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VitanaChatButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCE7ACF56EA38592AFA94BD /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		EA5F36980ABCA300BF95B596 /* Pods-VitanaChatButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VitanaChatButtonDemo.debug.xcconfig"; path = "Target Support Files/Pods-VitanaChatButtonDemo/Pods-VitanaChatButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3F87D62C6792E12CF8B016D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169E73010D56C4ECE3ACA258 /* libPods-VitanaChatButtonDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79FC22BC5FB35197143958D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A303B4BCB2116BD835AC8187 /* libPods-VitanaChatButtonDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87D055555494C3C88759784C = {
+			isa = PBXGroup;
+			children = (
+				E9B7B2D6977FEDFEF8FCBBB6 /* Sources */,
+				B198FFDA96AC820D0A5B10F1 /* Products */,
+				D90B3E37133B36E9060E7399 /* Pods */,
+				79FC22BC5FB35197143958D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B198FFDA96AC820D0A5B10F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B569C252F48769701FADDCF9 /* VitanaChatButtonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D90B3E37133B36E9060E7399 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA5F36980ABCA300BF95B596 /* Pods-VitanaChatButtonDemo.debug.xcconfig */,
+				28D713B4D82060177AFBA10D /* Pods-VitanaChatButtonDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E9B7B2D6977FEDFEF8FCBBB6 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F34BFAD7FC3CF0E9C4513A18 /* App */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F34BFAD7FC3CF0E9C4513A18 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				14322800184ABB44C2049D25 /* SceneDelegate.swift */,
+				2C8A4386E92DD72639D60440 /* AppDelegate.swift */,
+				CDCE7ACF56EA38592AFA94BD /* DemoViewController.swift */,
+				491C4B40C05E9E1665406222 /* VitanaChatButton.swift */,
+				8A723829D739AD65BB183CD6 /* Info.plist */,
+				1C269A54F5625C42D0011538 /* output-vitana-bt-bg.riv */,
+				88CA483E4ABA77E337C81F93 /* output-vitana-icon.riv */,
+				700B17A13BF4873928438805 /* ai_generating.riv */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB55B1992141B88DDDE95A46 /* VitanaChatButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CA9A52CF6D9E7AC8E077D90 /* Build configuration list for PBXNativeTarget "VitanaChatButtonDemo" */;
+			buildPhases = (
+				C928D6E7C2761DD8597C23DE /* [CP] Check Pods Manifest.lock */,
+				6284AC985944F8D03BAFEB61 /* Sources */,
+				855657329884E350B39E16C5 /* Resources */,
+				D3F87D62C6792E12CF8B016D /* Frameworks */,
+				94F226B3EAC53F1FB2DB6C0D /* [CP] Embed Pods Frameworks */,
+				055C196B716B8E6DF587A5D7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VitanaChatButtonDemo;
+			productName = VitanaChatButtonDemo;
+			productReference = B569C252F48769701FADDCF9 /* VitanaChatButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06CE5F9C1159352B2846700F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = C303D1DDFF5AB139F6AE04F8 /* Build configuration list for PBXProject "VitanaChatButtonDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 87D055555494C3C88759784C;
+			minimizedProjectReferenceProxies = 1;
+			productRefGroup = B198FFDA96AC820D0A5B10F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB55B1992141B88DDDE95A46 /* VitanaChatButtonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		855657329884E350B39E16C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14A00C573E6565B54F9A7A2 /* ai_generating.riv in Resources */,
+				A1DC63C8F76A81FAF2DF6593 /* output-vitana-bt-bg.riv in Resources */,
+				44BC3D8583DDD7DC739A754F /* output-vitana-icon.riv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		055C196B716B8E6DF587A5D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VitanaChatButtonDemo/Pods-VitanaChatButtonDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VitanaChatButtonDemo/Pods-VitanaChatButtonDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VitanaChatButtonDemo/Pods-VitanaChatButtonDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94F226B3EAC53F1FB2DB6C0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VitanaChatButtonDemo/Pods-VitanaChatButtonDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VitanaChatButtonDemo/Pods-VitanaChatButtonDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VitanaChatButtonDemo/Pods-VitanaChatButtonDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C928D6E7C2761DD8597C23DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VitanaChatButtonDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6284AC985944F8D03BAFEB61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A2F48DEFFBBE5640E52615 /* AppDelegate.swift in Sources */,
+				6EB1C6FEEC0225F431CD216A /* DemoViewController.swift in Sources */,
+				C90191FCC7092D892F6B5034 /* SceneDelegate.swift in Sources */,
+				378229A3677464E22FB495FC /* VitanaChatButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0E9882D7259AEE31C3363752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2ECAC2E6C56FBE98CCF8D073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA5F36980ABCA300BF95B596 /* Pods-VitanaChatButtonDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 932QX878KY;
+				INFOPLIST_FILE = Sources/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitane.demo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D13D5AC748BBB4DFF51CBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28D713B4D82060177AFBA10D /* Pods-VitanaChatButtonDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 932QX878KY;
+				INFOPLIST_FILE = Sources/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitane.demo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0B931C04955A63D6C87B48A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CA9A52CF6D9E7AC8E077D90 /* Build configuration list for PBXNativeTarget "VitanaChatButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ECAC2E6C56FBE98CCF8D073 /* Debug */,
+				3D13D5AC748BBB4DFF51CBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C303D1DDFF5AB139F6AE04F8 /* Build configuration list for PBXProject "VitanaChatButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0B931C04955A63D6C87B48A /* Debug */,
+				0E9882D7259AEE31C3363752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06CE5F9C1159352B2846700F /* Project object */;
+}
